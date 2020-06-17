@@ -1,0 +1,233 @@
+<!DOCTYPE html> <!-- the language declaration  -->
+
+<!-- escape characters -->
+<!-- space --- &nbsp -->
+<!-- TM ------ &#8482 -->
+<!-- & ------- &amp -->
+<!-- (c) --------- &copy -->
+<!-- < ----------- &lt (less than) -->
+<!-- > ----------- &gt (greater than) -->
+<!-- ? ----------- &#63 -->
+
+<!-- <b> for bold element -->
+<!-- <strong> for strong element (adds emphasis / can be used for text to speech programs)-->
+<!-- <i> for italic element -->
+<!-- <em> for em element (adds emphasis / can be used for text to speech programs) -->
+
+<html> <!-- this is opening tag  -->
+  
+  <title> Intro to HTML &#8482 </title> <!-- this is the title of the tab  -->  
+  
+  <!-- head section  -->
+  <head> This is head section <sup>&copy</sup>
+
+    <!-- this is the external style sheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- <style> style element, add style to html (using css rule) -->
+    <!-- this is the internal style sheet -->
+    <style>
+
+      /* body {
+        color: midnightblue;
+        font-family: Verdana, Arial, Helvetica, Geneva;
+        font-weight: bolder;
+      } */
+
+    </style>
+
+    <!-- <meta/>  meta elements (always inside the head element, not visible in the page  -->
+    <!-- description value max 150 characters  -->
+
+    <meta name="description" content="This is an introduction to html by trueazp"/>
+    <meta name="keywords" content="html, trueazp" />
+    <meta http-equiv="author" content="trueazp" />
+    <meta http-equiv="content-language" content="en-id" />
+
+  </head>
+
+  <!-- body section   -->
+  <body>
+
+     <!-- <p> this is paragraph tag  -->
+    <p> List of Header  </p>
+    
+    <!-- creating links within the same page -->
+    <ol>
+      <li> <a href="#1. First Main Header">First Main Header</a>  </li>
+      <li> <a href="#2. Second Main Header">Second Main Header</a>  </li>
+      <li> <a href="#3. Third Main Header">Third Main Header</a>  </li>
+      <li> <a href="#4. Fourth Main Header">Fourth Main Header</a>  </li>
+    </ol>
+
+    <!-- this is heading 1, heading 2 will be smaller & so on -->
+    <h1 class="darkred"> <a name="1. First Main Header">1. First Main Header</a>  </h1> 
+    
+      <p> <!-- this is paragraph tag  -->
+        <b>This is the paragraph inside the First Main Header</b>
+      </p>
+
+        <h2> 1.1 First Sub Header of the First Main Header </h2> 
+    
+          <p>
+          <i>This is the paragraph inside the 1.1 First Sub Header of the First Main Header</i>
+          </p>
+
+          <!-- this is unordered and ordered list  -->
+          <ul> 
+            <p> This is unordered list  </p>
+            <li> Food  </li>
+            <li> Drinks  </li>
+            <li> Dessert  </li>
+          </ul>
+
+          <ol>
+            <p> This is ordered list  </p>
+            <li> Food  </li>
+            <li> Drinks  </li>
+            <li> Dessert  </li>
+          </ol>
+
+          <!-- <table> this is table tag -->
+          <!-- <tr> this is row table tag  -->
+          <!-- <th> this is column table tag  -->
+          <!-- <td> this is table's data tag  -->
+
+          <table>
+
+            <tr>
+              <th> Food  </th>
+              <th> Drinks  </th>
+            </tr>
+
+            <tr>
+              <td> Rice  </td>
+              <td> Tea  </td>
+            </tr>
+
+            <tr>
+              <td> Soup  </td>
+              <td> Sake  </td>
+            </tr>
+
+          </table>
+
+          <p>
+            <img src="Tomato.jpg" width="666" height="500" title="This is a Mango">
+          </p>
+
+    <!-- <br> this is line breaker / new line, doesn't need closing tag  -->          
+    <br> <br> <br> <br> <br> <br> <br> 
+    <br> <br> <br> <br> <br> <br> <br> 
+    <br> <br> <br> <br> <br> <br> <br> 
+    <br> <br> <br> <br> <br> <br> <br> 
+    <br> <br> <br> <br> <br> <br> <br>
+    <br> <br> <br> <br> <br> <br> <br>
+    <br> <br> <br> <br> <br> <br> <br>
+    <br> <br> <br> <br> <br> <br> <br>
+
+    <h1 class="darkgoldenrod"> <a name="2. Second Main Header">2. Second Main Header</a>  </h1>
+    
+      <p> <img src="GD 0 - Na.jpg" width="500" height="500" title="Hollow" > </p>
+
+      <p> <!-- this is paragraph tag  -->
+        <strong>This is the paragraph inside the Second Main Header</strong>
+      </p>
+
+        <h2> 2.1 First Sub Header of Second Main Header </h2> 
+    
+          <p>
+            <em>This is the paragraph inside the First Sub Header of Second Main Header</em>
+          </p>
+
+    
+    <h1 class="darkgreen"> <a name="3. Third Main Header">3. Third Main Header</a>  </h1>
+      
+    <!-- <form> this is form tag  -->
+      <form action="" method="">
+
+        <!-- one line box  -->
+        <!-- creating labels  & declaring input types --> 
+        <label for="name">Name :</label>
+        <input type="text" id="name" name=""> <br> <br>
+        
+        <label for="age">Age :</label>
+        <input type="number" min="1" max="60" size="5" id="age" name=""> <br> <br>
+
+        <!-- creating radio buttons  -->
+        Male
+        <input type="radio" name="yesorno" value="">
+        Female
+        <input type="radio" name="yesorno" value=""> <br> <br>
+
+        <!-- creating dropdown list  -->
+        Your country : <br>
+        <select>
+          <option value="Indonesia">Indonesia</option>
+          <option value="Malaysia">Malaysia</option>
+          <option value="Singapore">Singapore</option>
+          <option value="Thailand">Thailand</option>
+        </select>
+
+        <br> <br>
+        <!-- creating checkboxes  -->
+        Which subjects are you interested in? <br>
+        <input type="checkbox" name="">Reading <br>
+        <input type="checkbox" name="">Cooking <br>
+        <input type="checkbox" name="">Swimming <br>
+        <input type="checkbox" name="">Gaming <br>
+
+        <!-- creating fieldbox & legend elements  -->
+        <fieldset>
+
+          <!-- create date & number box  -->
+          <legend>Enter random date : </legend>
+          <input type="date" name="day">
+          Number of days : <input type="number" name="numdays" min="1" max="10">
+          <br> <br>
+          Reminder message : <input type="text">
+
+        </fieldset>
+        <br>
+
+        <!-- multi line box  -->
+        Your Comments : <br>
+        <textarea rows="5" cols="80"></textarea> <br>
+
+        <!-- creating submit button  -->
+        <input type="submit" value="Submit">
+
+      </form>
+
+    <h1 class="darkgray"> <a name="4. Fourth Main Header">4. Fourth Main Header</a> </h1>
+
+      <!-- creating iframe -->
+      <iframe frameborder="1" width="200" height="200" src="test1.html" name="ouriframe" id="ouriframe">Do you see this?</iframe>
+      <br>
+      <a href="test2.html" target="ouriframe">Switch to a new file</a> &nbsp
+      <a href="test1.html" target="ouriframe">Switch back</a>
+
+      <br> <br>
+      
+      <!-- audio element -->
+      Cradle of Rome 2 - Aurora main theme <br>
+      <audio controls="audiocontrols" draggable="true">
+        <source src="Cradle of Rome 2 - Aurora main theme.mp3"/>
+      </audio>
+
+      <br> <br>
+
+      <!-- video element -->
+      MythFox - Rise Of An Empire (Official) <br>
+      <video width="640" height="360" controls>
+        <source src="MythFox - Rise Of An Empire (Official).mp4"/>
+      </video>
+
+      <br> <br> <br>
+
+      <!-- creating web link  -->
+  <P> by trueazp  <a href="https://github.com/trueazp"> My GitHub  </a>  </P>
+
+  </body>
+
+</html> <!-- this is closing tag  -->

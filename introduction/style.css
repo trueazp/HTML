@@ -1,0 +1,25 @@
+h1 {
+  border-bottom: 1px solid black;
+}
+
+body {
+  color: midnightblue;
+  font-family: Verdana, Arial, Helvetica, Geneva;
+  font-weight: bolder;
+}
+
+h1.darkred {
+  font-family: Cascadia Code;
+}
+
+h1.darkgoldenrod {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1.darkgreen {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1.darkgray {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
