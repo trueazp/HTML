@@ -35,3 +35,7 @@ nav {
   font-size: 14px;
   font-weight: bold;
 }
+
+.nav-links li {
+  list-style: none;
+}
