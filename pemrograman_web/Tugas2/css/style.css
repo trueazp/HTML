@@ -52,3 +52,9 @@ nav {
   height: 3px;
   transition: all 0.3s ease;
 }
+
+@media screen and (max-width:768px) {
+  .nav-links {
+    width: 41%;
+  }
+}
