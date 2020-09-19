@@ -19,5 +19,10 @@ $(document)
         .sidebar('attach events', '.toc.item')
       ;
 
+      // make cards blurred
+      $('.special.cards .image').dimmer({
+        on: 'hover'
+      });
+
     })
   ;
